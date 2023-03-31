@@ -1,0 +1,81 @@
+body{ 
+	background:linear-gradient(to top left, #ffffff 0%, #ffcccc 100%);
+	}
+h1{
+	font-family:Sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	background:linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.image{
+	height:200;
+	width:200;
+	margin-left:auto;
+	margin-right:auto;
+}
+iframe{
+	text-align:center;
+	width:100%;
+	height:70%;
+}
+table{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+th, td{
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+}
+p{
+  font-weight:bold;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+h2, h6, a{
+  margin:0;
+  padding:0;
+  font-family:Sans-serif;
+}
+h2{
+  font-size:2.8em;
+  padding:10px 0;
+  font-weight:800;
+}
+h6{
+  font-size:1.1em;
+  font-weight:100;
+  letter-spacing:5px;
+}
+.banner{
+  width:100%;
+  padding:60px 0;
+  text-align:center;
+  background:#4c5270;
+  color:white;
+}
+.button{
+  font-size:20px;
+  display:inline-block;
+  border:1px solid white;
+  padding:10px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:300;
+  margin-top:30px; 
+}
+.button:hover {
+  background-color:red;
+  color:#4c5270;
+}
+.calender iframe{
+	float:center;
+}
+
+

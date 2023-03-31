@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:arial;
+ 
+}
+.menu{
+    width:100%;
+    background:#333;
+    overflow:auto;
+}
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    line-height:35px;
+}
+.menu ul li a{
+    text-decoration:none;
+    float:left;
+    width:100px;
+    display:block;
+    padding:1px 8px;
+    text-align:center;
+    font-size:17px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#fff;
+}
+.menu input{
+    float:right;
+    padding:6px;
+    margin-right:40px;
+}
+.menu ul li a:hover{
+    background:#6666ff;
+}
+.menu ul li a.active{
+    background:orange;
+}
+.toggle-nav{
+    color:#fff;
+    text-decoration:none;
+    display: none;
+}
